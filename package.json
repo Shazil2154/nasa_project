@@ -1,0 +1,30 @@
+{
+  "name": "nasa_project",
+  "version": "1.0.0",
+  "description": "Nasa project mono-repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shazil2154/nasa_project.git"
+  },
+  "keywords": [
+    "nasa",
+    "monorepo",
+    "shazil"
+  ],
+  "author": "Shazil Sattar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shazil2154/nasa_project/issues"
+  },
+  "homepage": "https://github.com/Shazil2154/nasa_project#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
