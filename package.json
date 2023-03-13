@@ -4,7 +4,11 @@
   "description": "Nasa project mono-repo",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "install": "npm run install --prefix server && npm run install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm start --prefix client",
+    "dev": "npm run dev:server & npm run dev:client",
+    "test": "npm run test --prefix server && npm run --prefix client"
   },
   "repository": {
     "type": "git",
